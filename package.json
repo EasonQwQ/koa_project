@@ -1,0 +1,32 @@
+{
+  "name": "koa-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "latest",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "latest",
+    "koa-router": "latest",
+    "koa-sslify": "latest",
+    "mysql2": "latest",
+    "node-xlsx": "^0.15.0",
+    "nodemailer": "latest",
+    "nodemailer-smtp-transport": "latest",
+    "qcloudsms_js": "^0.1.1",
+    "request": "latest",
+    "request-promise": "^4.2.4",
+    "sequelize": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

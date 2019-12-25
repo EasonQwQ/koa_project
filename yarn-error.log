@@ -1,0 +1,60 @@
+Arguments: 
+  /root/node-v10.16.0-linux-x64/bin/node /root/node-v10.16.0-linux-x64/bin/yarn
+
+PATH: 
+  /root/node-v10.16.0-linux-x64/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/koa/package.json: Unexpected token } in JSON at position 553
+      at JSON.parse (<anonymous>)
+      at /root/node-v10.16.0-linux-x64/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/root/node-v10.16.0-linux-x64/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /root/node-v10.16.0-linux-x64/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "koa-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "koa": "^2.7.0",
+      "koa-bodyparser":"latest",
+      "koa-router":"latest",
+      "koa-sslify":"latest",
+      "nodemailer":"latest",
+      "nodemailer-smtp-transport":"latest",
+      "mysql2":"latest",
+      "sequelize":"latest",
+      "request-promise":"^4.2.4",
+      "request":"latest",
+      "jsonwebtoken":"latest",
+    },
+    "devDependencies": {
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb-base": "^13.2.0",
+      "eslint-plugin-import": "^2.18.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
